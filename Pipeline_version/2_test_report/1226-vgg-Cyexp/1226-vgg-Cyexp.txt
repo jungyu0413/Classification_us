@@ -1,0 +1,32 @@
+macro
+class weights: {0: 2483, 1: 1907, 3: 125, 2: 528}
+Predicted     0     1    2    3   All
+Actual                               
+0          2143   264   55   21  2483
+1           378  1395  110   24  1907
+2           108   103  317    0   528
+3             2    41    0   82   125
+All        2631  1803  482  127  5043
+accuracy_score: 0.7806860995439223
+balanced_accuracy_score: 0.7127407813767007
+recall_score: 0.7127407813767007
+PPV(precision_score): 0.7228938291595368
+Specificity: 0.908394511921232
+f1_score: 0.7171573749763925
+roc_auc_score:  0.8374727026388276
+micro
+class weights: {0: 2483, 1: 1907, 3: 125, 2: 528}
+Predicted     0     1    2    3   All
+Actual                               
+0          2143   264   55   21  2483
+1           378  1395  110   24  1907
+2           108   103  317    0   528
+3             2    41    0   82   125
+All        2631  1803  482  127  5043
+accuracy_score: 0.7806860995439223
+balanced_accuracy_score: 0.7127407813767007
+recall_score: 0.7806860995439223
+PPV(precision_score): 0.7806860995439223
+Specificity: 0.9268953665146408
+f1_score: 0.7806860995439222
+roc_auc_score:  0.8880008488568802
